@@ -1,4 +1,7 @@
 {
+  "homepage": "http:edmondavetisyan.github.io/book_fiinder",
+  "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
   "name": "book_finder",
   "version": "0.1.0",
   "private": true,
