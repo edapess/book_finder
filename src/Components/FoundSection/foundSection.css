@@ -1,0 +1,90 @@
+.found-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70vh;
+  background: #ffffff;
+  justify-content: space-between;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(209, 209, 209, 0.301);
+}
+.bookCard{
+    width: 60%;
+    height: auto;
+    margin: 35px;
+}
+
+.cardContainer img{
+    box-shadow: 8px 15px 30px 0px #070014cb;
+
+}
+
+.bookTitle{
+    font-weight: 1000;
+    font-family: Comfortaa;
+    font-size: 14px;
+    line-height:17px;
+    color: rgb(0, 0, 0);
+
+}
+.bookAuthor{
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight:400;
+    color: rgb(46, 44, 44);
+}
+.infoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+
+}
+.categoryTitle{
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight:400;
+    color: rgb(46, 44, 44);
+    text-decoration: underline;
+}
+
+@media(max-width: 674px){
+    .found-section{
+        justify-content: center;
+    }
+    .cardContainer{
+        width: 70%;
+    }
+    .bookCard{
+        width: 30%;
+    }
+    .infoBox{
+        align-items: center;
+        height: 15%;
+    }
+
+    
+}
+
+@media(max-width: 320px){
+    .cardContainer{
+     
+        width: 100%;
+    }
+    .bookCard{
+        width: 90%;
+    }
+    .infoBox{
+        align-items: flex-start;
+    }
+}

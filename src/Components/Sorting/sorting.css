@@ -1,0 +1,20 @@
+.sorting{
+    width: 80%;
+    font-family: Comfortaa;
+    font-size: 16px;
+    padding: 10px;
+}
+label{
+    width: 200px;
+   color: #fff;
+    font-family: Comfortaa;
+    font-size: 18px;
+}
+
+@media(max-width: 900px){
+    .sorting {
+        width: auto;
+        font-size: 14px;
+    }
+    
+}
