@@ -1,11 +1,17 @@
 import React from "react";
 import "./foundSection.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 const FoundSection = (props) => {
+const [visible, setvisible] = useState(10)
+
+const showMoreBooks = ()=> {
+  setvisible((prevVal)=> prevVal +10)
+}
 
   return (
     <div className="found-section">
-      {props.content.map((book) => (
+      {props.content.slice(0,visible).map((book) => (
         <Link  key={book.id} to={{pathname:"/book_info" ,state:book}}>
         <div className="cardContainer" >
           <img
@@ -27,6 +33,10 @@ const FoundSection = (props) => {
         
       </Link>
       ))}
+<div className="loadMore">
+<button onClick={showMoreBooks}>Load More</button>
+
+</div>
     </div>
   );
 };

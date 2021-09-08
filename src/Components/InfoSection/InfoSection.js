@@ -9,7 +9,7 @@ const InfoSection = (props) => {
   );
   const [categoryInfo, setcategoryInfo] = useState("");
   const [bookTitle, setbookTitle] = useState("");
-  const [authorInfo, setauthorInfo] = useState("");
+  const [authorInfo, setauthorInfo] = useState([]);
   const [description, setdescription] = useState("");
   useEffect(() => {
     if (props.location.state) {
@@ -41,7 +41,7 @@ const InfoSection = (props) => {
         <div className="infoBox">
           <div className="categoryInfo">Category: {categoryInfo}</div>
           <div className="titleInfo">Title: {bookTitle}</div>
-          <div className="authorInfo">Author: {authorInfo}</div>
+          <div className="authorInfo">Author:	&nbsp;{authorInfo.map((author) => (<p>{author}&nbsp;</p>))}</div>
           <div className="descInfo">Description: {description}</div>
         </div>
       </div>
