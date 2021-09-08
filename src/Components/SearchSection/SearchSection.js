@@ -6,6 +6,7 @@ import Category from "../Category/Category";
 import { Sorting } from "../Sorting/Sorting";
 import axios from "axios";
 import FoundSection from "../FoundSection/FoundSection";
+import InfoSection from "../InfoSection/InfoSection";
 const SearchSection = () => {
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
@@ -36,7 +37,6 @@ const SearchSection = () => {
       )
       .then((data) => {
         setResult(data.data.items);
-        console.log(data.data.items);
       });
   }
 
@@ -73,6 +73,8 @@ const SearchSection = () => {
       </div>
 
       <FoundSection content={result} />
+      
+
     </div>
   );
 };
