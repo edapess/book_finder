@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/book_finder/static/css/main.7d0357d4.chunk.css",
+    "main.js": "/book_finder/static/js/main.120f48d5.chunk.js",
+    "main.js.map": "/book_finder/static/js/main.120f48d5.chunk.js.map",
+    "runtime-main.js": "/book_finder/static/js/runtime-main.9b43d2a7.js",
+    "runtime-main.js.map": "/book_finder/static/js/runtime-main.9b43d2a7.js.map",
+    "static/js/2.9e7f2ec5.chunk.js": "/book_finder/static/js/2.9e7f2ec5.chunk.js",
+    "static/js/2.9e7f2ec5.chunk.js.map": "/book_finder/static/js/2.9e7f2ec5.chunk.js.map",
+    "static/js/3.0abacb6e.chunk.js": "/book_finder/static/js/3.0abacb6e.chunk.js",
+    "static/js/3.0abacb6e.chunk.js.map": "/book_finder/static/js/3.0abacb6e.chunk.js.map",
+    "index.html": "/book_finder/index.html",
+    "static/css/main.7d0357d4.chunk.css.map": "/book_finder/static/css/main.7d0357d4.chunk.css.map",
+    "static/js/2.9e7f2ec5.chunk.js.LICENSE.txt": "/book_finder/static/js/2.9e7f2ec5.chunk.js.LICENSE.txt",
+    "static/media/searchSection.css": "/book_finder/static/media/lib.22616d46.jpg",
+    "static/media/loupe.637db432.svg": "/book_finder/static/media/loupe.637db432.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b43d2a7.js",
+    "static/js/2.9e7f2ec5.chunk.js",
+    "static/css/main.7d0357d4.chunk.css",
+    "static/js/main.120f48d5.chunk.js"
+  ]
+}
